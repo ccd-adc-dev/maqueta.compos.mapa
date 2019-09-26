@@ -1,3 +1,8 @@
+ * {
+	outline: 1px solid lightblue;
+} 
+
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -5,6 +10,7 @@ html, body {
 }
 
 body {
+	
 	color: #333;
 	margin: 0;
 	padding: 8px;
@@ -60,3 +66,5 @@ button:active {
 button:focus {
 	border-color: #666;
 }
+
+

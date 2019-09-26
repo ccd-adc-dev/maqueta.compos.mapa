@@ -1,5 +1,8 @@
 <script>
 	export let name;
+	import VentanaFamilia from "./componentes/VentanaFamilia.svelte";
+	import VolutaIcono from "./componentes/VolutaIcono.svelte";
+	import TwitterIcono from "./componentes/TwitterIcono.svelte";
 </script>
 
 <style>
@@ -8,4 +11,13 @@
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<h1>Hellooaao {name}!</h1>
+
+<VentanaFamilia/>
+
+<VolutaIcono/>
+<TwitterIcono/>
+
+
+
+
