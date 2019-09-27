@@ -87,6 +87,12 @@
 <i>Flecha</i>
 
 <article class="Contenedor-1">
+    <h5>
+        Agrupaciones Linguisticas
+    </h5>
+    <h5>
+        Riesgo de desaparicion
+    </h5>
     <section>
         <ul>
         <Agrupacion/>
