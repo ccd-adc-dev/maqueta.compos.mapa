@@ -1,11 +1,16 @@
+<script>
+    import Riesgo from "../iconos/Riesgo.svelte";
+
+</script>
+
 <style>
     .Agrupacion {
         position: relative;
         left: -34px;
-        margin: 1em;
-        padding: 0 0.5em;
         width: 600px;
         height: 60px;
+        margin: 1em;
+        padding: 0 0.5em;
         background: #FFFFFF;
         border: 1px solid #DBDBDB;
         box-sizing: border-box;
@@ -17,16 +22,30 @@
         justify-content: space-between;
     }
 
+    .Riesgo {
+        position: relative;
+        top: 12px;
+        left: 142px;
+    }
+
+    .Cantidad {
+        position: relative;
+        top: -9px;
+        right: 21px;
+        text-align: center;
+        color: #454344;
+    }
+
 </style>
 
 <article class="Agrupacion">
     <p>Nayeeri (Cora)</p>
-    <div class="icono">
-        <i>i</i>
+    <div class="Riesgo">
+        <Riesgo/>
     </div>
-    <div class="cantidad">
+    <div class="Cantidad">
         <p>
-            28, 718 hablantes
+            28, 718 <br/> hablantes
         </p>
     </div>
 </article>
