@@ -1,3 +1,7 @@
+<script>
+    import BotonElipseCerrar from "../componentes/botones/BotonElipseCerrar.svelte";
+</script>
+
 <style>
 
     article {
@@ -73,7 +77,7 @@
                 Descripcion
             </p>
 </article>
-
+<BotonElipseCerrar/>
 <article class="Contenedor-1">
 
 

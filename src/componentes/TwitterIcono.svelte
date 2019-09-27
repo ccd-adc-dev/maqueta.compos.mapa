@@ -1,8 +1,4 @@
 
-<style>
-
-</style>
-
 <figure>
 <svg
   width="72"
