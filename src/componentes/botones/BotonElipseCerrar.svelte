@@ -1,3 +1,6 @@
+<style>
+ 
+</style>
 
 <figure>
   <svg
@@ -13,7 +16,7 @@
       16.0444Z"
       stroke="#878787" />
   </svg>
-  <svg
+  <svg id="cruz-1"
     width="15"
     height="16"
     viewBox="0 0 15 16"
@@ -26,7 +29,7 @@
       stroke-linecap="round"
       stroke-linejoin="round" />
   </svg>
-  <svg
+  <svg id="cruz-2"
     width="15"
     height="16"
     viewBox="0 0 15 16"

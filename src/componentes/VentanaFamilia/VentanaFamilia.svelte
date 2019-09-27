@@ -1,5 +1,5 @@
 <script>
-    import BotonElipseCerrar from "../componentes/botones/BotonElipseCerrar.svelte";
+    import Agrupacion from "./Agrupacion.svelte";
 </script>
 
 <style>
@@ -13,9 +13,15 @@
     .Familia {
         background: #F7F7F7;
         border-radius: 10px;
+	    display: flex;
+	    justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
     }
 
-    .Imagen {
+    img {
 		width: 100%;
 		height: 12rem;
         object-fit: cover;
@@ -34,12 +40,9 @@
     .Saber {
         width: 105px;
         height: 26px;
-        left: 10px;
-        top: 5px;
         border: 1px solid #E6AA30;
         box-sizing: border-box;
         border-radius: 15px;
-        align-items: center;
     }
 
     .Cerrar {
@@ -68,18 +71,29 @@
             Saber mas
         </button>
     </header>
-
-	    <img class="Imagen" src={`http://unsplash.it/300/${100+Math.floor(Math.random()*500)}`} alt="img"/>
-            <p>
-                Titulo Foto
-            </p>
-            <p>
-                Descripcion
-            </p>
+         <!-- <img src="http://fakeimg.pl/244x80?text=logo" alt="img" /> -->
+	<img class="Imagen" src={`http://unsplash.it/300/${100+Math.floor(Math.random()*500)}`} alt="img"/>
+        <p>
+            Titulo Foto
+        </p>
+        <p>
+            Descripcion
+        </p>
 </article>
-<BotonElipseCerrar/>
-<article class="Contenedor-1">
 
+<div class="slider">
+
+</div>
+<i>Flecha</i>
+
+<article class="Contenedor-1">
+    <section>
+        <ul>
+        <Agrupacion/>
+        <Agrupacion/>
+        <Agrupacion/>
+        </ul>
+    </section>
 
 
 </article>
