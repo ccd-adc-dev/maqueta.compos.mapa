@@ -1,5 +1,7 @@
 <script>
     import Agrupacion from "./Agrupacion.svelte";
+    import BotonCerrar from "../botones/BotonCerrar.svelte";
+
 </script>
 
 <style>
@@ -45,21 +47,26 @@
         border-radius: 15px;
     }
 
-    .Cerrar {
+    /* .Cerrar {
         height:20px;
         width:20px;
         border-radius:20px / 20px;
         border: 1px solid #878787;
         box-sizing: border-box;
+    } */
+
+    .TitulosLista {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 1em;
     }
-
-
 
 </style>
 
 <article class="Familia">
-    <button class="Cerrar">
-    </button>
+    <BotonCerrar/>
     <header>
         <p class="Titulo">
             Familia
@@ -81,18 +88,20 @@
         </p>
 </article>
 
-<div class="slider">
-
+<div class="Slider">
 </div>
+
 <i>Flecha</i>
 
 <article class="Contenedor-1">
+<header class="TitulosLista">
     <h5>
         Agrupaciones Linguisticas
     </h5>
     <h5>
         Riesgo de desaparicion
     </h5>
+</header>
     <section>
         <ul>
         <Agrupacion/>
@@ -100,6 +109,5 @@
         <Agrupacion/>
         </ul>
     </section>
-
 
 </article>
