@@ -8,7 +8,7 @@
 
 
     let elemento = { activo: false };
-	function Mostrar() {
+	const Mostrar = () => {
 		elemento.activo = !elemento.activo;
     }
     
@@ -144,7 +144,7 @@
     </figure>
     <header class="Encabezado">
         <p class="Titulo">
-            Familia
+            FAMILIA
         </p>
         <h1 class="Principal">
             Yuto-nahua
