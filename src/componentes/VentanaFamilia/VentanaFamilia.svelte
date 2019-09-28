@@ -3,7 +3,7 @@
     import BotonCerrar from "../botones/BotonCerrar.svelte";
     import Flecha from "../iconos/Flecha.svelte";
     import Carrousel from "../iconos/Carrousel.svelte";
-
+    import FamiliaDetalle from "./FamiliaDetalle.svelte";
 </script>
 
 <style>
@@ -113,6 +113,9 @@
         position: relative;
         top: -137px;
     }
+
+
+
    
 /* Cambiar estos valores en global.css */
 /* TO DO Agregar font Fira Sans en estilos global en proyecto mapa interactivo */
@@ -127,7 +130,7 @@
     <figure class="Cerrar">
         <BotonCerrar/>
     </figure>
-    <header>
+    <header class="Encabezado">
         <p class="Titulo">
             Familia
         </p>
@@ -176,3 +179,4 @@
 
 </article>
 
+<FamiliaDetalle/>
