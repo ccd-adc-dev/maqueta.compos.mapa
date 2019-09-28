@@ -12,14 +12,14 @@
         
     .Detalle {
         max-width: 330px;
-        max-height: 850px;
+        max-height: 950px;
         padding: 0 1.7em;
         float: right;
         background-color: #fff;
     }
 
     .Texto {
-        max-height: 720px;
+        max-height: 790px;
         overflow-y: auto;
         background:#fff;
         font-size: 14px;
