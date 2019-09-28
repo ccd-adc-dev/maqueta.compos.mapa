@@ -10,7 +10,7 @@
         width: 600px;
         height: 60px;
         margin: 1em;
-        padding: 0 0.5em;
+        padding: 0 0.9em;
         background: #FFFFFF;
         border: 1px solid #DBDBDB;
         box-sizing: border-box;
@@ -24,7 +24,7 @@
 
     .Riesgo {
         position: relative;
-        top: 12px;
+        top: 15px;
         left: 142px;
     }
 

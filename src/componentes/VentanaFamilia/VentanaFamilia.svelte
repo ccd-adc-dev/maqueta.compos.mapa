@@ -2,6 +2,7 @@
     import Agrupacion from "./Agrupacion.svelte";
     import BotonCerrar from "../botones/BotonCerrar.svelte";
     import Flecha from "../iconos/Flecha.svelte";
+    import Carrousel from "../iconos/Carrousel.svelte";
 
 </script>
 
@@ -9,8 +10,7 @@
 
     article {
         max-width: 640px;
-        max-height: 1617px;
-        overflow-y: hidden;
+        /* height: 1617px; */
 	}
 
     .Familia {
@@ -22,11 +22,14 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
+        max-height: 850px;
+        overflow-y: auto;
+
     }
 
     .Cerrar {
         position: relative;
-        left: 285px;
+        left: 264px;
     }
 
     img {
@@ -96,11 +99,20 @@
         width: 44px;
         height: 22px;
         position: relative;
-        left: 300px;
-        top: 45px;
-        border: 1px solid #C9C9C9;
+        left: 259px;
+        top: 40px;
+        
     }
 
+    .Carrousel {
+        top: -97px;
+        position: relative;
+    }
+
+    .Contenedor-1 {
+        position: relative;
+        top: -137px;
+    }
    
 /* Cambiar estos valores en global.css */
 /* TO DO Agregar font Fira Sans en estilos global en proyecto mapa interactivo */
@@ -112,9 +124,9 @@
 </style>
 
 <article class="Familia">
-    <div class="Cerrar">
+    <figure class="Cerrar">
         <BotonCerrar/>
-    </div>
+    </figure>
     <header>
         <p class="Titulo">
             Familia
@@ -137,13 +149,14 @@
             </p>
         </div>
 
-    <div class="Slider">
+    <div class="Carrousel">
+        <Carrousel/>
     </div>
 
     <article class="Contenedor-1">
-        <div class="Flecha">
+        <figure class="Flecha">
             <Flecha/>
-        </div>
+        </figure>
         <header class="TitulosLista">
             <h4>
                 Agrupaciones Lingüísticas
@@ -152,7 +165,7 @@
                 Riesgo de desaparición
             </h4>
         </header>
-            <section>
+            <section class="Lista">
                 <ul>
                 <Agrupacion/>
                 <Agrupacion/>
