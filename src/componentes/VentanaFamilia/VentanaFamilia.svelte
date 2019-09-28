@@ -4,6 +4,14 @@
     import Flecha from "../iconos/Flecha.svelte";
     import Carrousel from "../iconos/Carrousel.svelte";
     import FamiliaDetalle from "./FamiliaDetalle.svelte";
+
+
+
+    let elemento = { activo: false };
+	function Mostrar() {
+		elemento.activo = !elemento.activo;
+    }
+    
 </script>
 
 <style>
@@ -70,7 +78,6 @@
         border-radius: 15px;
         color: #E6AA30;
     }
-    
 
     /* .Cerrar {
         height:20px;
@@ -114,6 +121,11 @@
         top: -137px;
     }
 
+    .FamiliaDetalle {
+        position: absolute;
+        left: 648px;
+        top: 8px;
+    }
 
 
    
@@ -138,9 +150,21 @@
             Yuto-nahua
         </h1>
     </header>
-        <button class="Saber">
-            Saber más
-        </button>
+        {#if elemento.activo}
+	    <button class="Saber" on:click={Mostrar}>
+	    	Saber más
+	    </button>
+        <div class="FamiliaDetalle">
+	        <FamiliaDetalle/>
+        </div>
+        {/if}
+
+        {#if !elemento.activo}
+	    <button class="Saber" on:click={Mostrar}>
+	    	Saber más
+	    </button>
+        {/if}
+        
          <!-- <img src="http://fakeimg.pl/244x80?text=logo" alt="img" /> -->
 	    <img class="Imagen" src={`http://unsplash.it/300/${100+Math.floor(Math.random()*500)}`} alt="img"/>
         <div class="TextoFotos">
@@ -179,4 +203,11 @@
 
 </article>
 
-<FamiliaDetalle/>
+
+
+
+
+
+
+
+

@@ -4,63 +4,28 @@
 </script>
 
 <style>
-    /* article {
-        max-width: 420px;
-        background: #FFFFFF;
-        border-radius: 0px;
-    } 
-    article {
-        max-width: 420px;
-
-        overflow-y: auto;
-
-    }
-
-    .Detalle {
-        max-width: 420px;
-        background: #fff;
-	    display: flex;
-	    justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        max-height: 850px;
-        overflow-y: auto;
-        outline: 1px solid blue;
-    }
-
-    .Texto {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        max-width: 350px;
-        max-height: 850px;
-    }
-
+    
     .Ocultar {
-        position: relative;
-        top: -21px;
-        left: 180px;
-    }
-*/
-    .Ocultar {
-        margin-left: 290px;
+        margin-left: 270px;
         margin-top: -10px;
     }
         
     .Detalle {
-        max-width: 350px;
+        max-width: 330px;
         max-height: 850px;
-        padding: 0 1.5em;
+        padding: 0 1.7em;
         float: right;
-        background:#fff;
-        
+        background-color: #fff;
     }
+
     .Texto {
         max-height: 720px;
         overflow-y: auto;
         background:#fff;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: justify;
+        color: #454344;
     }
 
 </style>
