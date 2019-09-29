@@ -7,33 +7,58 @@
             width: 560px;
             height: 640px;
             outline: 1px solid blue;
+            
+        }
+
+        .Informacion {
+            display: flex;
+	        justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
         }
 
         .Encabezado {
             width: 560px;
             height: 145px;
+            position: relative;
+            top: -45px;
             background: #516980;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
             border-radius: 0px 0px 0px 40px;
+            outline: 1px solid blue;
+
         }
 
         .Acerca {
             padding: 2em;
             /* float: right; */
+            outline: 1px solid blue;
+
         }
 
         .Texto {
             width: 462px;
             max-height: 289px;
             overflow-y: auto;
+            outline: 1px solid blue;
+            color: #5E5E5E;
         }
+
+        .Subtitulo {
+            color: #878787;
+        }
+        
     
 </style>
-
+    
 <article class="Informacion">
     <header class="Encabezado">
     </header>
     <div class="Acerca">
+        <p class="Subtitulo">
+            Acerca de
+        </p>
         <div class="Texto">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod quidem delectus hic aspernatur sit eum rem laborum sequi, recusandae similique ut totam, dolores dignissimos veniam. Voluptatem error ipsam ipsa!
