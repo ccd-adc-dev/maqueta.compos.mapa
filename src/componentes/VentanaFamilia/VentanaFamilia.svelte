@@ -30,9 +30,22 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
-        max-height: 850px;
-        overflow-y: auto;
+        max-height: 787px;
 
+    }
+
+    .Encabezado {
+        margin-top: -60px;
+    }
+
+    .Contenedor-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+        /* justify-content: space-between; */
+        overflow-y: auto;
+        
     }
 
     .Cerrar {
@@ -72,7 +85,7 @@
         width: 105px;
         height: 26px;
         position: relative;
-        left: 5px;
+        left: 0px;
         border: 1px solid #E6AA30;
         box-sizing: border-box;
         border-radius: 15px;
@@ -116,7 +129,7 @@
         position: relative;
     }
 
-    .Contenedor-1 {
+    .Contenedor-2 {
         position: relative;
         top: -137px;
     }
@@ -164,43 +177,42 @@
 	    	Saber más
 	    </button>
         {/if}
-        
-         <!-- <img src="http://fakeimg.pl/244x80?text=logo" alt="img" /> -->
-	    <img class="Imagen" src={`http://unsplash.it/300/${100+Math.floor(Math.random()*500)}`} alt="img"/>
-        <div class="TextoFotos">
-            <p>
-                Titulo Foto
-            </p>
-            <p>
-                Descripción
-            </p>
+        <div class="Contenedor-1">
+	        <img class="Imagen" src={`http://unsplash.it/300/${100+Math.floor(Math.random()*500)}`} alt="img"/>
+            <div class="TextoFotos">
+                <p>
+                    Titulo Foto
+                </p>
+                <p>
+                    Descripción
+                </p>
+            </div>
+
+            <div class="Carrousel">
+                <Carrousel/>
+            </div>
+
+            <article class="Contenedor-2">
+                <figure class="Flecha">
+                    <Flecha/>
+                </figure>
+                <header class="TitulosLista">
+                    <h4>
+                        Agrupaciones Lingüísticas
+                    </h4>
+                    <h4>
+                        Riesgo de desaparición
+                    </h4>
+                </header>
+                    <section class="Lista">
+                        <ul>
+                        <Agrupacion/>
+                        <Agrupacion/>
+                        <Agrupacion/>
+                        </ul>
+                    </section>
+            </article>
         </div>
-
-    <div class="Carrousel">
-        <Carrousel/>
-    </div>
-
-    <article class="Contenedor-1">
-        <figure class="Flecha">
-            <Flecha/>
-        </figure>
-        <header class="TitulosLista">
-            <h4>
-                Agrupaciones Lingüísticas
-            </h4>
-            <h4>
-                Riesgo de desaparición
-            </h4>
-        </header>
-            <section class="Lista">
-                <ul>
-                <Agrupacion/>
-                <Agrupacion/>
-                <Agrupacion/>
-                </ul>
-            </section>
-    </article>
-
 </article>
 
 

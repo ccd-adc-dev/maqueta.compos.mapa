@@ -19,12 +19,12 @@
     }
 
     .Texto {
-        max-height: 790px;
+        max-height: 725px;
         background:#fff;
         font-size: 14px;
         line-height: 28px;
-        text-align: justify;
         overflow-y: auto;
+        text-align: justify;
         color: #454344;
     }
 
