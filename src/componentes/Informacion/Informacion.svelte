@@ -23,7 +23,7 @@
             width: 560px;
             height: 145px;
             position: relative;
-            top: -45px;
+            top: -32px;
             background: #516980;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
             border-radius: 0px 0px 0px 40px;
@@ -40,13 +40,16 @@
             max-height: 289px;
             overflow-y: auto;
             color: #5E5E5E;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
         }
 
         .Subtitulo {
             font-style: normal;
             font-weight: normal;
             font-size: 24px;
-            line-height: 29px;
             color: #878787;
         }
 
@@ -89,10 +92,6 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequuntur autem repudiandae ducimus nobis possimus facere sunt sint vero laudantium ex aperiam ipsa a, beatae neque, nostrum dolor animi sit!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequuntur autem repudiandae ducimus nobis possimus facere sunt sint vero laudantium ex aperiam ipsa a, beatae neque, nostrum dolor animi sit!
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequuntur commodi sed amet cum quasi minima voluptatum placeat est necessitatibus. Atque repudiandae laboriosam illum ea, magnam voluptatum sapiente architecto amet!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequuntur commodi sed amet cum quasi minima voluptatum placeat est necessitatibus. Atque repudiandae laboriosam illum ea, magnam voluptatum sapiente architecto amet!
             </p>
         </div>
     </div>
