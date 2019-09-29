@@ -70,7 +70,7 @@
     </header>
     <div class="Acerca">
         <p class="Subtitulo">
-            Acerca de
+            ACERCA DE 
         </p>
         <div class="Texto">
             <p>
