@@ -1,5 +1,6 @@
 <script>
-
+    import InfoIcon from "../iconos/InfoIcon.svelte";
+    import TituloAyuda from "../iconos/TituloAyuda.svelte";
 </script>
 
 <style>
@@ -48,12 +49,29 @@
         .Subtitulo {
             color: #878787;
         }
+
+        .Mapa {
+            position: relative;
+            top: 22%;
+        }
+
+        .Informa {
+            position: absolute;
+            top: 10%;
+            left: 69%
+        }
         
     
 </style>
     
 <article class="Informacion">
     <header class="Encabezado">
+        <figure class="Mapa">
+            <TituloAyuda/>
+        </figure>
+        <figure class="Informa">
+            <InfoIcon/>
+        </figure>
     </header>
     <div class="Acerca">
         <p class="Subtitulo">
