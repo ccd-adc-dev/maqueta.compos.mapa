@@ -20,11 +20,11 @@
 
     .Texto {
         max-height: 790px;
-        overflow-y: auto;
         background:#fff;
         font-size: 14px;
         line-height: 28px;
         text-align: justify;
+        overflow-y: auto;
         color: #454344;
     }
 
