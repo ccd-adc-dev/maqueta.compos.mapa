@@ -5,12 +5,10 @@
 
 <style>
     .Agrupacion {
-        position: relative;
-        left: -34px;
-        width: 600px;
-        height: 60px;
-        margin: 1em;
-        padding: 0 0.9em;
+        width: 100%;
+        height: 4rem;
+        margin: 1rem;
+        padding: 0 1rem;
         background: #FFFFFF;
         border: 1px solid #DBDBDB;
         box-sizing: border-box;
@@ -22,30 +20,52 @@
         justify-content: space-between;
     }
 
-    .Riesgo {
-        position: relative;
-        top: 15px;
-        left: 142px;
+    .Agrupacion > * {
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .Cantidad {
-        position: relative;
-        top: -9px;
-        right: 21px;
-        text-align: center;
+    .Nombre {
+        flex-grow: 1;   
+        font-size: 1rem; 
+        justify-content: flex-start !important;
+    }
+
+    .Riesgo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 1;
+    }
+
+    .Hablantes {
+        flex-shrink: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+        justify-content: center;
         color: #454344;
     }
 
 </style>
 
 <article class="Agrupacion">
-    <p>Nayeeri (Cora)</p>
+    <div class="Nombre">
+        <span>
+            Nayeeri (Cora)
+        </span>
+    </div>
     <div class="Riesgo">
         <Riesgo/>
     </div>
-    <div class="Cantidad">
-        <p>
-            28, 718 <br/> hablantes
-        </p>
+    <div class="Hablantes">
+        <span class="Numero">
+            28, 718
+        </span>
+        <span class="Leyenda">
+            hablantes
+        </span>
     </div>
 </article>

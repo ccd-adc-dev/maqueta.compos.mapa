@@ -130,8 +130,7 @@
     }
 
     .Contenedor-2 {
-        position: relative;
-        top: -137px;
+        width: 100%;
     }
 
     .FamiliaDetalle {
