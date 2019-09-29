@@ -7,8 +7,7 @@
         article {
             width: 560px;
             height: 640px;
-            outline: 1px solid blue;
-            
+            /* outline: 1px solid blue; */
         }
 
         .Informacion {
@@ -27,22 +26,18 @@
             background: #516980;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
             border-radius: 0px 0px 0px 40px;
-            outline: 1px solid blue;
 
         }
 
         .Acerca {
             padding: 2em;
             /* float: right; */
-            outline: 1px solid blue;
-
         }
 
         .Texto {
             width: 462px;
             max-height: 289px;
             overflow-y: auto;
-            outline: 1px solid blue;
             color: #5E5E5E;
         }
 
