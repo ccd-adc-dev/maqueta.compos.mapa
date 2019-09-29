@@ -8,6 +8,7 @@
             width: 560px;
             height: 640px;
             /* outline: 1px solid blue; */
+            background-color: #fff;
         }
 
         .Informacion {
@@ -42,6 +43,10 @@
         }
 
         .Subtitulo {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
             color: #878787;
         }
 
