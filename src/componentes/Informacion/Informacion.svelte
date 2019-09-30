@@ -10,18 +10,16 @@
         } */
 
         article {
-            max-width: 100%;
-            /* outline: 1px solid blue; */
+            max-width: 360px;
+            max-height: 420px;
             background-color: rgb(255, 255, 255);
         }
 
         .Informacion {
-            max-width: 34%;
+            max-width: 32%;
             display: flex;
-	        justify-content: center;
             align-items: center;
             flex-direction: column;
-            flex-wrap: nowrap;
         }
 
         .Encabezado {
@@ -34,7 +32,6 @@
 
         .Acerca {
             padding: 2rem;
-            /* float: right; */
         }
 
         .Texto {
@@ -60,8 +57,8 @@
         }
 
         .Informa {
-            margin-top: -5.5rem;
-            margin-left: 27rem;
+            margin-top: -5.6rem;
+            margin-left: 30rem;
         }
         
     
