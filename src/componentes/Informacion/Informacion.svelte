@@ -10,12 +10,13 @@
         } */
 
         article {
-            width: 83%;
+            max-width: 100%;
             /* outline: 1px solid blue; */
-            background-color: #fff;
+            background-color: rgb(255, 255, 255);
         }
 
         .Informacion {
+            max-width: 34%;
             display: flex;
 	        justify-content: center;
             align-items: center;

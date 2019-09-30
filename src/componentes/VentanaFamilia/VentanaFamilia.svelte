@@ -17,10 +17,11 @@
 <style>
 
     article {
-        max-width: 95%;
+        max-width: 100%;
 	}
 
     .Familia {
+        max-width: 35%;
         background: #F7F7F7;
         border-radius: 10px;
 	    display: flex;
@@ -120,8 +121,9 @@
 
     .FamiliaDetalle {
         position: absolute;
-        left: 93.5%;
+        left: 35%;
         top: 0.6%;
+        right: 55%;
     }
 
     .Lista {
