@@ -50,6 +50,7 @@
         margin-left: 36rem;
         border: 0;
         background-color: #F7F7F7;
+        padding: 1rem;
     }
 
     i {
@@ -110,19 +111,17 @@
 
     .Flecha {
         width: 50%;
-        margin-top: 3rem;
-        margin-left: 16rem;
-        margin-bottom: -1.5rem;
+        margin-left: 10rem;
     }
 
     .Carrousel {
-        margin-top: -6rem;
+        margin-top: -4.5rem;
         font-size: 0.5rem;
     }
 
     .Contenedor-2 {
         width: 100%;
-        margin-top: -6%;
+        margin-top: 1rem;
     }
 
     .FamiliaDetalle {
