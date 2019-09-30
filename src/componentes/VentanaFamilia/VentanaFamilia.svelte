@@ -141,7 +141,7 @@
 
 <article class="Familia">
     <figure class="Cerrar">
-        <BotonCerrar/>
+        <i>Icono cerrar</i>
     </figure>
     <header class="Encabezado">
         <p class="Titulo">
