@@ -1,5 +1,4 @@
 <script>
-    import Riesgo from "../iconos/Riesgo.svelte";
 
 </script>
 
@@ -49,6 +48,10 @@
         color: #454344;
     }
 
+    #IconRiesgo {
+        color: #e6aa30f2;
+    }
+
 </style>
 
 <article class="Agrupacion">
@@ -58,7 +61,7 @@
         </span>
     </div>
     <div class="Riesgo">
-        <Riesgo/>
+        <i id="IconRiesgo" class="fas fa-exclamation-circle fa-lg"></i>
     </div>
     <div class="Hablantes">
         <span class="Numero">

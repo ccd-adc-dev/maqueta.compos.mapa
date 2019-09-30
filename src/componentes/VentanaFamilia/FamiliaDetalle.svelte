@@ -1,5 +1,4 @@
 <script>
-    import Ocultar from "../iconos/Ocultar.svelte";
 
 </script>
 
@@ -35,11 +34,23 @@
         color: #454344;
     }
 
+    .Ocultar {
+        margin-left: 36rem;
+        border: 0;
+        background-color: #fff;
+    }
+    
+    i {
+        color: #bababa;
+    }
+
 </style>
 
 
 <section class="Detalle">
-    <i class="Ocultar">icono ocultar</i>
+    <button class="Ocultar">
+        <i class="far fa-arrow-alt-circle-left fa-2x"></i>
+    </button>
     <section class="Texto">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod quidem delectus hic aspernatur sit eum rem laborum sequi, recusandae similique ut totam, dolores dignissimos veniam. Voluptatem error ipsam ipsa!

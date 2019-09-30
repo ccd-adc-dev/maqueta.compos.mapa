@@ -1,8 +1,6 @@
 <script>
     import Agrupacion from "./Agrupacion.svelte";
     import BotonCerrar from "../botones/BotonCerrar.svelte";
-    import Flecha from "../iconos/Flecha.svelte";
-    import Carrousel from "../iconos/Carrousel.svelte";
     import FamiliaDetalle from "./FamiliaDetalle.svelte";
 
 
@@ -17,7 +15,8 @@
 <style>
 
     article {
-        max-width: 100%;
+        max-width: 360px;
+        max-height: 420px;
 	}
 
     .Familia {
@@ -49,6 +48,12 @@
 
     .Cerrar {
         margin-left: 36rem;
+        border: 0;
+        background-color: #F7F7F7;
+    }
+
+    i {
+        color: #bababa;
     }
 
     img {
@@ -112,6 +117,7 @@
 
     .Carrousel {
         margin-top: -6rem;
+        font-size: 0.5rem;
     }
 
     .Contenedor-2 {
@@ -131,20 +137,13 @@
         margin-left: -3.5rem;
     }
 
-   
-/* Cambiar estos valores en global.css */
-/* TO DO Agregar font Fira Sans en estilos global en proyecto mapa interactivo */
-    button {
-        padding: 0 0.5rem;
-	    margin: 0 0 1rem 0;
-    }
 
 </style>
 
 <article class="Familia">
-    <figure class="Cerrar">
-        <i>Icono cerrar</i>
-    </figure>
+    <button class="Cerrar">
+        <i class="far fa-times-circle fa-2x"></i>
+    </button>
     <header class="Encabezado">
         <p class="Titulo">
             FAMILIA
@@ -179,13 +178,21 @@
             </div>
 
             <div class="Carrousel">
-                <Carrousel/>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
+                <i id="Point" class="fas fa-circle fa-xs"></i>
             </div>
 
             <article class="Contenedor-2">
-                <figure class="Flecha">
-                    <Flecha/>
-                </figure>
+                <span class="Flecha">
+                    <i class="fas fa-chevron-down fa-3x"></i>
+                </span>
                 <header class="TitulosLista">
                     <h4>
                         Agrupaciones Lingüísticas
