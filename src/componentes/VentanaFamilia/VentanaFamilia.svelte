@@ -96,10 +96,9 @@
 
     .TitulosLista {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
         justify-content: space-between;
-        margin: 1rem;
+        margin-right: -6rem;
+        margin-left: -6rem;
     }
 
     .TextoFotos {
@@ -132,8 +131,8 @@
     }
 
     .Lista {
-        margin-right: 1rem;
-        margin-left: -3.5rem;
+        margin-right: -5rem;
+        margin-left: -9.5rem;
     }
 
 
