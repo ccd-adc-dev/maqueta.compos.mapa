@@ -17,8 +17,7 @@
 <style>
 
     article {
-        max-width: 640px;
-        /* height: 1617px; */
+        max-width: 95%;
 	}
 
     .Familia {
@@ -30,12 +29,11 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
-        max-height: 787px;
-
+        max-height: 48rem;
     }
 
     .Encabezado {
-        margin-top: -9%;
+        margin-top: -3rem;
     }
 
     .Contenedor-1 {
@@ -49,7 +47,7 @@
     }
 
     .Cerrar {
-        margin-left: 89%;
+        margin-left: 36rem;
     }
 
     img {
@@ -67,7 +65,7 @@
         line-height: 1rem;
         letter-spacing: 0.5rem;
         color: #454344;
-        margin: 1%;
+        margin: 0.5rem;
     }
 
     .Principal {
@@ -106,13 +104,13 @@
 
     .Flecha {
         width: 50%;
-        margin-top: 8%;
-        margin-left: 46%;
-        margin-bottom: -5%;
+        margin-top: 3rem;
+        margin-left: 16rem;
+        margin-bottom: -1.5rem;
     }
 
     .Carrousel {
-        margin-top: -15%;
+        margin-top: -6rem;
     }
 
     .Contenedor-2 {
@@ -122,13 +120,13 @@
 
     .FamiliaDetalle {
         position: absolute;
-        left: 94.5%;
+        left: 93.5%;
         top: 0.6%;
     }
 
     .Lista {
-        margin-right: 3%;
-        margin-left: -9%;
+        margin-right: 1rem;
+        margin-left: -3.5rem;
     }
 
    

@@ -4,25 +4,32 @@
 </script>
 
 <style>
-    
-    .Ocultar {
-        margin-left: 270px;
-        margin-top: -10px;
+    * {
+        outline: 1px solid blue;
     }
+
+    section {
+        width: 100%
+    }
+
         
     .Detalle {
-        max-width: 330px;
-        max-height: 950px;
-        padding: 0 1.7em;
-        float: right;
+        width: 200%;
+        padding: 0 1.5em;
+        /* float: right; */
         background-color: #fff;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
     }
 
     .Texto {
-        max-height: 725px;
+        max-height: 46.5rem;
         background:#fff;
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 1rem;
+        line-height: 2rem;
         overflow-y: auto;
         text-align: justify;
         color: #454344;
@@ -32,9 +39,7 @@
 
 
 <section class="Detalle">
-    <figure class="Ocultar">
-        <Ocultar/>
-    </figure>
+    <i class="Ocultar">icono ocultar</i>
     <section class="Texto">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod quidem delectus hic aspernatur sit eum rem laborum sequi, recusandae similique ut totam, dolores dignissimos veniam. Voluptatem error ipsam ipsa!
