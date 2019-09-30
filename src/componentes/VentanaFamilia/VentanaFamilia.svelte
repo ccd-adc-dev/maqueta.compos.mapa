@@ -125,9 +125,8 @@
 
     .FamiliaDetalle {
         position: absolute;
-        left: 35%;
+        left: 35.1%;
         top: 0.6%;
-        right: 55%;
     }
 
     .Lista {
