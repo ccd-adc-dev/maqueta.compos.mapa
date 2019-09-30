@@ -4,9 +4,13 @@
 </script>
 
 <style>
+
+        /* * {
+            outline: 1px solid blue;
+        } */
+
         article {
-            width: 560px;
-            height: 640px;
+            width: 83%;
             /* outline: 1px solid blue; */
             background-color: #fff;
         }
@@ -20,48 +24,43 @@
         }
 
         .Encabezado {
-            width: 560px;
-            height: 145px;
-            position: relative;
-            top: -32px;
+            width: 100%;
+            height: 9rem;
             background: #516980;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
             border-radius: 0px 0px 0px 40px;
-
         }
 
         .Acerca {
-            padding: 2em;
+            padding: 2rem;
             /* float: right; */
         }
 
         .Texto {
-            width: 462px;
-            max-height: 289px;
+            width: 100%;
+            max-height: 20rem;
             overflow-y: auto;
             color: #5E5E5E;
             font-style: normal;
             font-weight: normal;
-            font-size: 20px;
-            line-height: 24px;
+            font-size: 1rem;
+            line-height: 1.5rem;
         }
 
         .Subtitulo {
             font-style: normal;
             font-weight: normal;
-            font-size: 24px;
+            font-size: 1.5rem;
             color: #878787;
         }
 
         .Mapa {
-            position: relative;
-            top: 22%;
+            padding-top: 1.5rem;
         }
 
         .Informa {
-            position: absolute;
-            top: 10%;
-            left: 69%
+            margin-top: -5.5rem;
+            margin-left: 27rem;
         }
         
     

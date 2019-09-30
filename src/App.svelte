@@ -12,7 +12,7 @@
 </style>
 
 <VentanaFamilia/>
-
+<br>
 <Informacion/>
 
 <VolutaIcono/>
