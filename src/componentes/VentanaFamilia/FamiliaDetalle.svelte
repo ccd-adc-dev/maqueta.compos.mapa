@@ -3,29 +3,22 @@
 </script>
 
 <style>
-    * {
+    /* * {
         outline: 1px solid blue;
-    }
+    } */
 
     section {
-        width: 100%
+        width: 360px;
     }
 
         
     .Detalle {
-        width: 200%;
         padding: 0 1.5em;
-        /* float: right; */
         background-color: #fff;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
     }
 
     .Texto {
-        max-height: 46.5rem;
+        max-height: 42.7rem;
         background:#fff;
         font-size: 1rem;
         line-height: 2rem;
@@ -35,9 +28,10 @@
     }
 
     .Ocultar {
-        margin-left: 36rem;
+        margin-left: 20rem;
         border: 0;
         background-color: #fff;
+        padding: 1rem 0 1rem 1rem;
     }
     
     i {

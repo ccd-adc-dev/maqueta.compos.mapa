@@ -135,6 +135,10 @@
         margin-left: -9.5rem;
     }
 
+    #Point {
+        padding: 0 .5rem 0 0;
+    }
+
 
 </style>
 
