@@ -35,7 +35,7 @@
     }
 
     .Encabezado {
-        margin-top: -60px;
+        margin-top: -9%;
     }
 
     .Contenedor-1 {
@@ -49,8 +49,7 @@
     }
 
     .Cerrar {
-        position: relative;
-        left: 264px;
+        margin-left: 89%;
     }
 
     img {
@@ -64,88 +63,80 @@
     .Titulo {
         text-align: center;
         font-weight: 200;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.2em;
+        font-size: 1.5rem;
+        line-height: 1rem;
+        letter-spacing: 0.5rem;
         color: #454344;
-        margin: 0.2em;
+        margin: 1%;
     }
 
     .Principal {
         text-align: center;
         font-weight: 600;
-        font-size: 44px;
-        line-height: 53px;
+        font-size: 2.5rem;
+        line-height: 3rem;
         text-align: center;
         color: #E6AA30;
-        margin: 0.2em;
+        margin: 0.5rem;
     }
 
     .Saber {
-        width: 105px;
-        height: 26px;
-        position: relative;
-        left: 0px;
+        width: 17%;
+        height: 10%;
         border: 1px solid #E6AA30;
         box-sizing: border-box;
         border-radius: 15px;
         color: #E6AA30;
     }
 
-    /* .Cerrar {
-        height:20px;
-        width:20px;
-        border-radius:20px / 20px;
-        border: 1px solid #878787;
-        box-sizing: border-box;
-    } */
-
     .TitulosLista {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        margin: 1em;
+        margin: 1rem;
     }
 
     .TextoFotos {
         position: relative;
-        top: -102px;
-        left: -220px;
+        top: -16%;
+        left: -39%;
         color: #fff;
     }
 
     .Flecha {
-        width: 44px;
-        height: 22px;
-        position: relative;
-        left: 259px;
-        top: 40px;
-        
+        width: 50%;
+        margin-top: 8%;
+        margin-left: 46%;
+        margin-bottom: -5%;
     }
 
     .Carrousel {
-        top: -97px;
-        position: relative;
+        margin-top: -15%;
     }
 
     .Contenedor-2 {
         width: 100%;
+        margin-top: -6%;
     }
 
     .FamiliaDetalle {
         position: absolute;
-        left: 648px;
-        top: 8px;
+        left: 94.5%;
+        top: 0.6%;
     }
 
+    .Lista {
+        margin-right: 3%;
+        margin-left: -9%;
+    }
 
    
 /* Cambiar estos valores en global.css */
 /* TO DO Agregar font Fira Sans en estilos global en proyecto mapa interactivo */
     button {
-        padding: 0 0.4em;
-	    margin: 0 0 1em 0;
+        padding: 0 0.5rem;
+	    margin: 0 0 1rem 0;
     }
 
 </style>
