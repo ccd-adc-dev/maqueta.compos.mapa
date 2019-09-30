@@ -1,0 +1,3 @@
+[submodule "src/componentes"]
+	path = src/componentes
+	url = https://github.com/centroculturadigital-mx/inali-componentes.git
