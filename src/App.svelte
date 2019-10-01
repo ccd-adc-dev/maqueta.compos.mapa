@@ -4,6 +4,7 @@
 	import VolutaIcono from "./componentes/VolutaIcono.svelte";
 	import TwitterIcono from "./componentes/TwitterIcono.svelte";
 	import Informacion from "./componentes/Informacion/Informacion.svelte";
+	import Cabecera from "./componentes-inali-web/general/Cabecera/Cabecera.svelte";
 
 </script>
 
@@ -12,7 +13,7 @@
 		outline: 1px solid blue;
 	}
 	
-	.Contenedor-1 {
+	/* .Contenedor-1 {
 		width: 100%;
 		padding: 0;
 		margin: 0;
@@ -37,7 +38,7 @@
   		width: 360px;
   		height: 420px;
   		margin-top: 1rem;
-	}
+	} */
 
 
 </style>
@@ -45,7 +46,7 @@
 <head>
     <script src="https://kit.fontawesome.com/096c98e281.js" crossorigin="anonymous"></script>
 </head>
-<section class="Contenedor-1">
+<!-- <section class="Contenedor-1">
 		<div class="VentanaFamilia">
 			<VentanaFamilia/>
 		</div>
@@ -59,7 +60,10 @@
 			<TwitterIcono/>
 		</div>
 
-</section>
+</section> -->
 
+		<div class="Cabecera">
+			<Cabecera/>
+		</div>
 
 
