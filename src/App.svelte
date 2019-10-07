@@ -5,6 +5,7 @@
 	import TwitterIcono from "./componentes/TwitterIcono.svelte";
 	import Informacion from "./componentes/Informacion/Informacion.svelte";
 	import Cabecera from "./componentes-inali-web/general/Cabecera/Cabecera.svelte";
+	import Pie from "./componentes-inali-web/general/Pie/Pie.svelte";
 
 </script>
 
@@ -13,32 +14,43 @@
 		outline: 1px solid blue;
 	}
 	
-	/* .Contenedor-1 {
-		width: 100%;
+	 .Contenedor-1 {
+		/* width: 100%; */
 		padding: 0;
 		margin: 0;
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-around;
-
-  		-webkit-flex-display: flex;
-	    display: flex;
-  		-webkit-flex-flow: row wrap;
+		justify-content: space-between;
+		align-content: space-between;
 	}
 
 	.VentanaFamilia {
-		padding: 1rem;
-  		width: 360px;
-  		height: 420px;
-  		margin-top: 1rem;
+		width: 100px;
+
+		display: flex;
+		flex-grow: 1;
+		margin: auto;
 	}
 
 	.Informacion {
-		padding: 1rem;
-  		width: 360px;
-  		height: 420px;
-  		margin-top: 1rem;
-	} */
+		display: flex;
+		margin: auto;
+
+	}
+
+	.IconoVoluta {
+		display: flex;
+		margin: auto;
+
+	}
+
+	.IconoTwitter {
+		display: flex;
+		margin: auto;
+
+	}
+
+
 
 
 </style>
@@ -46,7 +58,7 @@
 <head>
     <script src="https://kit.fontawesome.com/096c98e281.js" crossorigin="anonymous"></script>
 </head>
-<!-- <section class="Contenedor-1">
+<div class="Contenedor-1">
 		<div class="VentanaFamilia">
 			<VentanaFamilia/>
 		</div>
@@ -59,11 +71,18 @@
 		<div class="IconoTwitter">
 			<TwitterIcono/>
 		</div>
-
-</section> -->
-
 		<div class="Cabecera">
 			<Cabecera/>
 		</div>
+		
+</div>
+
+		<!-- <div class="Cabecera">
+			<Cabecera/>
+		</div>
+
+		<div class="Pie">
+			<Pie/>
+		</div> -->
 
 
