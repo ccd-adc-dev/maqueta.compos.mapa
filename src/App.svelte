@@ -1,8 +1,8 @@
 <script>
 	
 	import VentanaFamilia from "./componentes/VentanaFamilia/VentanaFamilia.svelte";
-	import VolutaIcono from "./componentes/VolutaIcono.svelte";
-	import TwitterIcono from "./componentes/TwitterIcono.svelte";
+	import IconoVoluta from "./componentes/IconoVoluta.svelte";
+	import IconoTwitter from "./componentes/IconoTwitter.svelte";
 	import Informacion from "./componentes/Informacion/Informacion.svelte";
 	import Cabecera from "./componentes-inali-web/general/Cabecera/Cabecera.svelte";
 	import Pie from "./componentes-inali-web/general/Pie/Pie.svelte";
@@ -66,10 +66,10 @@
 			<Informacion/>
 		</div>
 		<div class="IconoVoluta">
-			<VolutaIcono/>
+			<IconoVoluta/>
 		</div>
 		<div class="IconoTwitter">
-			<TwitterIcono/>
+			<IconoTwitter/>
 		</div>
 		<div class="Cabecera">
 			<Cabecera/>
